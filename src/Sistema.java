@@ -1,14 +1,14 @@
 public class Sistema {
     public static void main(String[] args) {
-        String n = "Carlos";
-        double a = 8;
-        double b = 7;
-        double c = (a + b) / 2;
+        String nome = "Carlos";
+        double nota1 = 8;
+        double nota2 = 7;
+        double média = (nota1 + nota2) / 2;
 
-        System.out.println("Aluno: " + n);
-        System.out.println("Media: " + c);
+        System.out.println("Aluno: " + nome);
+        System.out.println("Media: " + média);
     
-        if (c >= 6) {
+        if (média >= 6) {
             System.out.println("Aprovado");
         } else {
             System.out.println("Reprovado");
